@@ -1,0 +1,8 @@
+version: '3'
+services:
+  asciidoctor:
+    build: .
+    container_name: asciidoctor
+    tty: true
+    volumes:
+      - ./documents:/documents
